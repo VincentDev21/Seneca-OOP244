@@ -1,0 +1,105 @@
+Script started on Tue 24 Jan 2023 05:09:20 PM EST
+==156320== Memcheck, a memory error detector
+==156320== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==156320== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==156320== Command: ws
+==156320== 
+---------  Customers records entry ------------------
+
+Enter the following Data:
+zebaism
+595
+234
+27
+n
+Enter customer information (to exit, press Enter): 
+ Enter User name: zebaism
+ Enter likes_count: 595
+ Enter retweets_count: 234
+ Enter replies_count: 27
+ Enter share videos (y/n): n
+
+Enter the following Data:
+rohanv
+12
+0
+1
+n
+Enter customer information (to exit, press Enter): 
+ Enter User name: rohanv
+ Enter likes_count: 12
+ Enter retweets_count: 0
+ Enter replies_count: 1
+ Enter share videos (y/n): n
+
+Enter the following Data:
+frank
+15
+2
+0
+n
+Enter customer information (to exit, press Enter): 
+ Enter User name: frank
+ Enter likes_count: 15
+ Enter retweets_count: 2
+ Enter replies_count: 0
+ Enter share videos (y/n): n
+
+Enter the following Data:
+desibrah
+39
+19
+2
+y
+Enter customer information (to exit, press Enter): 
+ Enter User name: desibrah
+ Enter likes_count: 39
+ Enter retweets_count: 19
+ Enter replies_count: 2
+ Enter share videos (y/n): y
+
+Enter the following Data:
+sheetut
+1
+0
+3
+y
+Enter customer information (to exit, press Enter): 
+ Enter User name: sheetut
+ Enter likes_count: 1
+ Enter retweets_count: 0
+ Enter replies_count: 3
+ Enter share videos (y/n): y
+
+Enter the following Data:
+<ENTER>
+Enter customer information (to exit, press Enter): 
+ Enter User name: 
+---------------------------------------------------------
+                Users' tweets report                     
+ user name, likes, re-tweets, replies, share videos (y/n)
+---------------------------------------------------------
+1. zebaism, 595, 234, 27, n
+
+2. rohanv, 12, 0, 1, n
+
+3. frank, 15, 2, 0, n
+
+4. desibrah, 39, 19, 2, y
+
+5. sheetut, 1, 0, 3, y
+
+---------------------------------------------------------
+            Report was successfully created                
+Dynamically allocated memory was successfully deallocated
+---------------------------------------------------------
+==156320== 
+==156320== HEAP SUMMARY:
+==156320==     in use at exit: 0 bytes in 0 blocks
+==156320==   total heap usage: 6 allocs, 6 frees, 73,304 bytes allocated
+==156320== 
+==156320== All heap blocks were freed -- no leaks are possible
+==156320== 
+==156320== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Tue 24 Jan 2023 05:10:03 PM EST

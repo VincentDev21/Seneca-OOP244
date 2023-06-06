@@ -1,0 +1,14 @@
+In line number 39 of your output:
+The output should be:
+[O|O|O|O|O|O]
+^
+But your output is: 
+Broken Egg Carton!
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [[] ASCII code(91)
+but you printed
+  [B] ASCII code(66)
+

@@ -1,0 +1,149 @@
+Script started on Thu 09 Feb 2023 02:17:01 AM EST
+==53434== Memcheck, a memory error detector
+==53434== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==53434== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==53434== Command: ws.exe
+==53434== 
+
+Operator <<, Operator >>, display and read test
+__________________________________
+| [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]|_\_
+|         Seneca College            )
+`---OO-------------------------O---'
+Total Fare Price: 0.00
+----------
+Out of service!
+----------
+Out of service!
+----------
+Out of service!
+----------
+_________________________________________________
+| [2][2][2][2][2][2][2][2][2][2][1][ ][ ][ ][ ]|_\_
+|                Seneca College                    )
+`---OO----------------------------------------O---'
+Total Fare Price: 2632.14
+----------
+Enter the following valid values:
+ 22,11
+>22,11
+_____________________________________
+| [2][2][2][2][2][1][ ][ ][ ][ ][ ]|_\_
+|          Seneca College              )
+`---OO----------------------------O---'
+Total Fare Price: 1378.74
+----------
+Enter the following valid values:
+ 24,0
+>24,0
+________________________________________
+| [ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]|_\_
+|            Seneca College               )
+`---OO-------------------------------O---'
+Total Fare Price: 0.00
+----------
+Enter the following invalid values:
+ 44,20
+>44,20
+Out of service!
+----------
+Enter the following invalid values:
+ 24,25
+>24,25
+Out of service!
+----------
+END Operator <<, Operator >>, display and read test
+
+Type Conversion operator tests
+0 Passengers:
+0.00 Dollars total fare.
+---------------
+20 Passengers:
+2506.80 Dollars total fare.
+---------------
+This bus is out of service!
+END Type Conversion operator tests
+
+Unary operator tests
+b1: 10
+b2: 0
+--b1; --b2;
+Passenger removed!
+Bus empty!
+b1: 9
+b2: 0
+--------------------------------
+++b1; ++b1; --b2;
+Passenger added!
+Bus full!
+Passenger added!
+b1: 10
+b2: 1
+--------------------------------
+b1--; b2--; b2--;
+Passenger removed!
+Passenger removed!
+Bus empty!
+b1: 9
+b2: 0
+--------------------------------
+b1++; b1++; b2++
+Passenger added!
+Bus full!
+Passenger added!
+b1: 10
+b2: 1
+--------------------------------
+
+Binary Member operator tests
+b1: 0, b2: 7, b3: 8
+b1 = b2 += b3;
+b1: 10, b2: 10, b3: 5
+bad += b3;
+bad: -1, b3: 5
+---------------------------------------------
+b1 = 20; b2 = 2;
+b1: -1, b2: 2
+b1 = 2;
+b1: -1
+---------------------------------------------
+b1 += 1; b2 += 1; b3 += 4;
+b1: -1, b2: 3, b3: 9
+---------------------------------------------
+b1: 5, b2: 10, b3: 10
+b1:
+___________________
+| [2][2][1][ ][ ]|_\_
+|  Seneca College     )
+`---OO----------O---'
+Total Fare Price: 626.70
+b2:
+___________________
+| [2][2][2][2][2]|_\_
+|  Seneca College     )
+`---OO----------O---'
+Total Fare Price: 1253.40
+b3:
+_______________________________
+| [2][2][2][2][2][ ][ ][ ][ ]|_\_
+|       Seneca College           )
+`---OO----------------------O---'
+Total Fare Price: 1253.40
+
+b1 has 5 passengers and b2 is 10 passengers therefore thier head counts are different
+b2 has 10 passengers and b3 is 10 passengers therefore thier head counts are equal
+---------------------------------------------
+
+Binary non-member operator test
+There are 5 passengers at the bus stop and there are 10 passengers on the bus.
+When the passengers get off the bus there will be 15 passengers at the bus stop!
+==53434== 
+==53434== HEAP SUMMARY:
+==53434==     in use at exit: 0 bytes in 0 blocks
+==53434==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==53434== 
+==53434== All heap blocks were freed -- no leaks are possible
+==53434== 
+==53434== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Thu 09 Feb 2023 02:17:41 AM EST

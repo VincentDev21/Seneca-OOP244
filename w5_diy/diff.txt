@@ -1,0 +1,14 @@
+In line number 29 of your output:
+The output should be:
+>22,11
+ ^
+But your output is: 
+>^C==164191== 
+ ^
+
+Unmatched character details:
+The character in column 2 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [^] ASCII code(94)
+

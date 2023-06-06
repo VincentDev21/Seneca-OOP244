@@ -1,0 +1,50 @@
+Script started on Fri 27 Jan 2023 02:18:48 PM EST
+==137803== Memcheck, a memory error detector
+==137803== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==137803== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==137803== Command: ws
+==137803== 
+Printing invalid list of Toys
+************************************************************
+****Children`s Dream store****
+************************************************************
+list of the toys
+                           SKU       Age      Price      Sale
+Toy[1] :Invalid Toy
+Toy[2] :Invalid Toy
+
+Printing valid list of Toys
+************************************************************
+****Children`s Dream store****
+************************************************************
+list of the toys
+                           SKU       Age      Price      Sale
+Toy[1] :Racing Car       11223344     8       40.99        
+Toy[2] :Teddy Bear       33772346     6       25.99        
+Toy[3] :Airplane         44453466    16       60.99        
+Toy[4] :Doll             55887896     5       45.99        
+Toy[5] :Drone            99221388    18       90.99        
+Toy[6] :Lego             88224596    10       65.99        
+
+Searching for toys and printing the list with sale price
+************************************************************
+****Children`s Dream store****
+************************************************************
+list of the toys
+                           SKU       Age      Price      Sale
+Toy[1] :Racing Car       11223344     8       40.99        
+Toy[2] :Teddy Bear       33772346     6       20.79   On Sale 
+Toy[3] :Airplane         44453466    16       60.99        
+Toy[4] :Doll             55887896     5       45.99        
+Toy[5] :Drone            99221388    18       72.79   On Sale 
+Toy[6] :Lego             88224596    10       52.79   On Sale 
+==137803== 
+==137803== HEAP SUMMARY:
+==137803==     in use at exit: 0 bytes in 0 blocks
+==137803==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==137803== 
+==137803== All heap blocks were freed -- no leaks are possible
+==137803== 
+==137803== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Fri 27 Jan 2023 02:18:48 PM EST

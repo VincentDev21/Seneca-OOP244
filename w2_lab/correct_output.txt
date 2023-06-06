@@ -1,0 +1,33 @@
+Script started on Sat 21 Jan 2023 10:24:12 AM EST
+==56463== Memcheck, a memory error detector
+==56463== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==56463== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==56463== Command: ws
+==56463== 
+Records were retrieved successfully
+Data records were grouped by the user id successfully
+User id, timeinhours, Fctime, Fwifitime, Package Name
+.....................................................
+0,1.49325,369926,5005762,com.tencent.mm
+0,1.35947,172756,4721320,com.tencent.mm
+0,1.66986,1221,6010276,com.UCMobile
+5,1.60287,5722288,48042,com.sina.weibo
+5,1.92426,260011,6667309,com.tencent.mm
+5,1.47877,2089902,3233672,com.UCMobile
+9,1.02618,288007,3406229,com.digiplex.game
+9,1.23554,59991,4387945,com.tencent.mm
+9,12.9425,2190642,44402341,com.tencent.mm
+9,1.21251,2544077,1820967,com.tencent.qqmusic
+
+Data was successfully printed
+Dynamically allocated memory was successfully deallocated
+==56463== 
+==56463== HEAP SUMMARY:
+==56463==     in use at exit: 0 bytes in 0 blocks
+==56463==   total heap usage: 198 allocs, 198 frees, 85,014 bytes allocated
+==56463== 
+==56463== All heap blocks were freed -- no leaks are possible
+==56463== 
+==56463== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sat 21 Jan 2023 10:24:13 AM EST

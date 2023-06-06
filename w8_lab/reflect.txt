@@ -1,0 +1,16 @@
+*****************************************************************************
+                              Reflection
+                          Workshop - #8 (LAB)
+Full Name  : Vincent Le
+Student ID#: 131117228
+Email      : vle21@myseneca.ca	
+Section    : NCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+For this week's workshop, we were tasked to create a program that would help us understand how to use Virtual Functions and Abstract base classes. This workshop allowed me to grasp a basic understanding of how to utilize virtual functions and abstract classes and the different ways you can implement them. The workshop did seem pretty tricky at first since I wasn't familiar with the concept and had issues with referencing the virtual functions in the classes that inherited the "Media" class. Overall this workshop helped me understand what virtual functions and abstract base classes are and how to implement them into my code.
+
+

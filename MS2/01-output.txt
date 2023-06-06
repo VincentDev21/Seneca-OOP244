@@ -1,0 +1,5 @@
+This is correct ><
+This is correct >Error G has a message<
+This copy assign is correct >Error G has a message<
+This copy is correct >Error G has a message<
+This is correct ><

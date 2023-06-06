@@ -1,0 +1,52 @@
+Script started on Fri 27 Jan 2023 02:16:02 PM EST
+==137025== Memcheck, a memory error detector
+==137025== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==137025== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==137025== Command: ws
+==137025== 
+**********Create Department TEST START**********
+Department School of Software development details:
+Budget: 15347 and the number of projects in progress is: 1
+Below are the details of the projects we are currently working on: 
+Project Base will cost a total of 551.55 C$.
+**********Create Department TEST END**********
+
+**********Update Name TEST Start**********
+Department School of Software development and design details:
+Budget: 15347 and the number of projects in progress is: 1
+Below are the details of the projects we are currently working on: 
+Project Base will cost a total of 551.55 C$.
+**********Update Name TEST END**********
+
+**********Update Budget TEST Start**********
+Department School of Software development and design details:
+Budget: 20903 and the number of projects in progress is: 1
+Below are the details of the projects we are currently working on: 
+Project Base will cost a total of 551.55 C$.
+**********Update Budget TEST END**********
+
+**********Expenses and Remaining Budget TEST Start**********
+Our current total Expenses are: 551.55
+Our remaining budget is: 20351.4
+**********Expenses and Remaining Budget TEST END**********
+
+**********Add Project TEST START**********
+Department School of Software development and design details:
+Budget: 20903 and the number of projects in progress is: 5
+Below are the details of the projects we are currently working on: 
+Project Base will cost a total of 551.55 C$.
+Project Synergy will cost a total of 5041.55 C$.
+Project Mecha will cost a total of 2925.99 C$.
+Project Chroma will cost a total of 3995.45 C$.
+Project Force will cost a total of 6988.45 C$.
+**********Add Project TEST END**********
+==137025== 
+==137025== HEAP SUMMARY:
+==137025==     in use at exit: 0 bytes in 0 blocks
+==137025==   total heap usage: 12 allocs, 12 frees, 73,937 bytes allocated
+==137025== 
+==137025== All heap blocks were freed -- no leaks are possible
+==137025== 
+==137025== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Fri 27 Jan 2023 02:16:03 PM EST

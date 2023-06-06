@@ -1,0 +1,18 @@
+Testing the logical operators:
+testing operator==
+passed!
+testing operator>=
+passed!
+testing operator<=
+passed!
+testing operator!=
+passed!
+testing operator<
+passed!
+testing operator>
+passed!
+testing operator<=
+passed!
+testing operator>=
+passed!
+You passed logical operator tests, now run the next test!

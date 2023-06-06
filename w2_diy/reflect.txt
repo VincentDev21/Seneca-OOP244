@@ -1,0 +1,24 @@
+*****************************************************************************
+                              Reflection
+                          Workshop - #2 (DIY)
+Full Name  : Vincent Le
+Student ID#: 131117228
+Email      : vle21@myseneca.ca	
+Section    : NCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+For this week's workshop, we were tasked to create a program that would read 
+a file that contains the behavioral profiles using Android applications using 
+specific instructions. We were also tasked to create a program that would take a 
+user's input and hold the user information and repeated until the user enters nothing.
+Throughout the workshop, I was able to experience the use of memory allocation,
+dynamic arrays and function overloads. The use of dynamic arrays helped me 
+understand the basics of memory allocation and how versatile it can be. 
+This workshop also allowed me to really understand the use of function overloads and passing 
+values through the overloads via reference. I also had some troubles in the workshop when it came to
+passing by values through the overloads that we were tasked to create. I had trouble calling the overloads 
+in order to store the values in the file. I have resolved the issue and I understand how overloads work now.

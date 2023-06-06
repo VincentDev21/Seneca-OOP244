@@ -1,0 +1,14 @@
+In line number 29 of your output:
+The output should be:
+Our current total Expenses are: 551.55
+                                   ^
+But your output is: 
+Our current total Expenses are: 551
+                                    ^
+
+Unmatched character details:
+The character in column 37 is supposed to be:
+  [.] ASCII code(46)
+but you printed
+  [Empty Line] ASCII code(0)
+

@@ -1,0 +1,67 @@
+Script started on Sun 05 Feb 2023 12:31:05 PM EST
+==92751== Memcheck, a memory error detector
+==92751== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==92751== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==92751== Command: ws.exe
+==92751== 
+-----------------------------------------------------------------
+|> T1: Checking Constructors of Soccer Team
+-----------------------------------------------------------------
+1. Invalid Team
+2. Invalid Team
+3. Invalid Team
+-----------------------------------------------------------------
+|> T2: Checking Constructors of Tournament
+-----------------------------------------------------------------
+1. Invalid Tournament
+2. Invalid Tournament
+3. Invalid Tournament
+-----------------------------------------------------------------
+|> T3: Checking valid Tournament with valid Teams
+-----------------------------------------------------------------
+Tournament name: Soccer Tournament
+list of the teams
+                                        Fines     Fouls     Goals
+Team[1] :Scarborough Soccer Team         0.00     0         0 
+Team[2] :North York Soccer Team        100.00     1         0 
+
+
+*****First match between two Teams*****
+-----------------------------------------------------------------
+|> T4:Updated list with the winner
+-----------------------------------------------------------------
+Tournament name: Soccer Tournament
+list of the teams
+                                        Fines     Fouls     Goals
+Team[1] :Scarborough Soccer Team         0.00     0         1w
+Team[2] :North York Soccer Team        120.00     2         0 
+
+*****Second match between two Teams*****
+-----------------------------------------------------------------
+|> T5:Updated list with the winner
+-----------------------------------------------------------------
+Tournament name: Soccer Tournament
+list of the teams
+                                        Fines     Fouls     Goals
+Team[1] :Scarborough Soccer Team         0.00     0         2w
+Team[2] :North York Soccer Team        144.00     4         0 
+
+*****Third match between two Teams*****
+-----------------------------------------------------------------
+|> T6:Updated list with the winner
+-----------------------------------------------------------------
+Tournament name: Soccer Tournament
+list of the teams
+                                        Fines     Fouls     Goals
+Team[1] :Scarborough Soccer Team         0.00     0         3w
+Team[2] :Invalid Team
+==92751== 
+==92751== HEAP SUMMARY:
+==92751==     in use at exit: 0 bytes in 0 blocks
+==92751==   total heap usage: 3 allocs, 3 frees, 72,850 bytes allocated
+==92751== 
+==92751== All heap blocks were freed -- no leaks are possible
+==92751== 
+==92751== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sun 05 Feb 2023 12:31:06 PM EST

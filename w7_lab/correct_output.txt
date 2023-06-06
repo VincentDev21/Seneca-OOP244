@@ -1,0 +1,135 @@
+Script started on Mon 13 Mar 2023 05:54:42 PM EDT
+==139601== Memcheck, a memory error detector
+==139601== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==139601== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==139601== Command: ws.exe
+==139601== 
+-------------------------------
+------ New Borns: 3 Pets ------
+** Generic Pet **
+   Name: Cici; 0 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.00
+   Health : 1.00 (Ideal)
+
+** Generic Dog **
+   Walks: 0
+   Name: Scooby; 0 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.00
+   Health : 1.00 (Ideal)
+
+** Generic Fish **
+   Name: Nemo; 0 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.00
+   Health : 1.00 (Ideal)
+
+-------------------------------
+-------- Under Nurture --------
+** Generic Pet **
+   Name: Cici; 9 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.00
+   Health : 1.00 (Ideal)
+
+** Generic Dog **
+   Walks: 0
+   Name: Scooby; 1 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.00
+   Health : -0.70 (PERISHED)
+
+** Generic Fish **
+   Name: Nemo; 5 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.00
+   Health : -0.20 (PERISHED)
+
+-------------------------------
+----------- ReSpawn -----------
+** Generic Pet **
+   Name: Cici; 0 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.25
+   Health : 1.00 (Ideal)
+
+** Generic Dog **
+   Walks: 0
+   Name: Scooby; 0 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $2.25
+   Health : 1.00 (Ideal)
+
+** Generic Fish **
+   Name: Nemo; 0 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.75
+   Health : 1.00 (Ideal)
+
+-------------------------------
+---------- Over Nurture -------
+** Generic Pet **
+   Name: Cici; 1 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.25
+   Health : 1.00 (Ideal)
+
+** Generic Dog **
+   Walks: 0
+   Name: Scooby; 1 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $2.25
+   Health : 1.20 (Over Nurtured)
+
+** Generic Fish **
+   Name: Nemo; 1 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $1.75
+   Health : 1.40 (Over Nurtured)
+
+-------------------------------
+------- Over Nurture: Dog -----
+** Generic Dog **
+   Walks: 5
+   Name: Scooby; 1 days old
+   Feeds, Cleans, Hugs: 5, 5, 0
+   Charges: $3.50
+   Health : 1.20 (Over Nurtured)
+
+** Generic Dog **
+   Walks: 0
+   Name: Scooby; 1 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $3.50
+   Health : 2.35 (PERISHED)
+
+-------------------------------
+--------- Cloning: Dog --------
+** Generic Dog **
+   Walks: 0
+   Name: Scooby(C); 10 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $10.00
+   Health : 1.00 (Ideal)
+>> Balance of $10.00 has been paid for Scooby(C)
+
+** Generic Dog **
+   Walks: 0
+   Name: Scooby(C)(C); 11 days old
+   Feeds, Cleans, Hugs: 0, 0, 0
+   Charges: $10.25
+   Health : 0.55 (Under Nurtured)
+
+-------------------------------
+----------- Complete ----------
+==139601== 
+==139601== HEAP SUMMARY:
+==139601==     in use at exit: 0 bytes in 0 blocks
+==139601==   total heap usage: 2 allocs, 2 frees, 72,816 bytes allocated
+==139601== 
+==139601== All heap blocks were freed -- no leaks are possible
+==139601== 
+==139601== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 13 Mar 2023 05:54:42 PM EDT

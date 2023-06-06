@@ -1,0 +1,14 @@
+In line number 11 of your output:
+The output should be:
+numbers.txt
+^
+But your output is: 
+==156263== Conditional jump or move depends on uninitialised value(s)
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [n] ASCII code(110)
+but you printed
+  [=] ASCII code(61)
+
