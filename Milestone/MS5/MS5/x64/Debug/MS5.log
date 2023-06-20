@@ -1,0 +1,12 @@
+﻿  Bill.cpp
+  Date.cpp
+  Error.cpp
+  Item.cpp
+  main.cpp
+  NonPerishable.cpp
+  Perishable.cpp
+  PosApp.cpp
+  PosIO.cpp
+  Utils.cpp
+  Generating Code...
+  MS5.vcxproj -> E:\MS5\x64\Debug\MS5.exe
