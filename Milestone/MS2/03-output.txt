@@ -1,0 +1,16 @@
+Testing Date constructors and operator<< overload;
+2023/03/10, 23:58 is the same as 2023/03/10, 23:58
+Passed!
+Testing Date(int, int, int) constructor and operator>> overload;
+enter the following date: 2023/10/18
+>2023/10/18
+Passed!
+Testing Date(int, int, int,int,int) constructor and operator>> overload;
+enter the following date and time: 2023/9/7, 14:30
+>2023/9/7, 14:30
+Passed!
+Testing Date(int, int, int,int,int=0) constructor and operator>> overload;
+enter the following date and time: 2023/9/7, 15:0
+>2023/9/7, 15:0
+Passed!
+You passed all Constructor tests, run the next test!
