@@ -1,3 +1,0 @@
-Checking constant values, POS.h:
-Passed!
-Checking constant values passed, now do the next test!
